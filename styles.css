@@ -1,0 +1,153 @@
+:root {
+    --main_text: #2f3035;
+    --accent_color: #1c62cd;
+    --base_color: #f0f0f4;
+    --light_grey_text: #c4c4c4;
+    --white_color: #ffff;
+  }
+
+
+
+*{
+    font-family:  "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+.first_header_part{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-left: 67px;
+}
+
+.first_header_part p:hover{
+    cursor: pointer;
+    color: #1C62CD;
+}
+
+.second_header_part{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 40px;
+}
+
+.second_header_part img{
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    cursor: pointer;
+
+}
+
+
+
+.nav{
+   width: 100vw;
+   height: 53px;
+   background-color: #F0F0F4;
+   margin-top: 45px;
+   display: flex;
+  margin: 0 auto;
+  margin-top: 53px;
+}
+
+.nav_list{
+    width: 100vw;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.nav_list li:hover{
+    color: #1C62CD;
+    cursor: pointer;
+}
+
+
+
+.backdrop {
+  width: 60%;
+  height: 400px;
+  background-color: #04040463;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 214px;
+  left: 0;
+  z-index: 1;
+}
+.baner_text {
+  color: var(--white_color);
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+
+.promotion {
+  width: 30%;
+  border: 1px solid var(--light_grey_text);
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.promotion img {
+  width: 125px;
+}
+.promo_price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--accent_color);
+  font-size: 27px;
+  font-weight: 700;
+  padding-right: 8px;
+}
+.promo_price span {
+  padding: 8px 20px;
+  background-color: var(--accent_color);
+  color: var(--white_color);
+  text-transform: uppercase;
+}
+
+.promo{
+  color: white;
+  background-color: #1C62CD;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.baner_box{
+  display: grid;
+} 
+
+
